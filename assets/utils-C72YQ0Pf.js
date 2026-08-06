@@ -1,1 +1,0 @@
-import{h as e,v as t}from"./index-C49g0uBD.js";var n=(n,r,i)=>{let[a,o]=e(!0),[s,c]=e(!1);return t(async()=>{let e=!!await navigator.gpu?.requestAdapter();o(e),e&&(window.onDownloadComplete=e=>{e===n&&c(!0)},await r(),await i())}),{deviceSupported:a,modelFilesDownloaded:s}};export{n as t};
